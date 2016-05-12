@@ -1,0 +1,53 @@
+# this is my profile file.
+
+# alias
+alias tfkg='echo ============'
+alias l.='ls -d .*'
+alias la='ls -al'
+alias grep='grep --color=always'
+alias cs='cd /Users/xuanxuan/Hisuntech/ssh'
+alias pb='ping -c 10 www.baidu.com'
+alias cdzkbin='cd /usr/local/zookeeper-3.4.5/bin'
+alias pssort='ps -eo rss,pmem,pcpu,vsize,args|sort -k 1 -r -n|less'
+alias disallfile='defaults write com.apple.finder AppleShowAllFiles -bool true'
+alias undisallfile='defaults write com.apple.finder AppleShowAllFiles -bool false'
+alias v='nvim '
+alias vi='vim'
+#mysql links
+alias 40payadm='mysql -h 192.168.50.40 -u payadm -p'
+export ipRegExp="(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
+
+# PATH
+#zookeeper
+export ZOOKEEPER_HOME=/usr/local/zookeeper-3.4.5
+export PATH=$PATH:$ZOOKEEPER_HOME/bin
+
+# ssh
+export PATH=$PATH:/Users/xuanxuan/chnl_order_all/ssh
+export PATH=$PATH:/Users/xuanxuan/MyScripts
+
+#mysql
+export PATH=$PATH:/usr/local/mysql-5.6.23-osx10.8-x86_64/bin
+
+#android
+export PATH=$PATH:/Users/xuanxuan/DevelopSoft/AndroidIDE/adt-bundle-mac-x86_64-20140702/sdk/platform-tools
+
+#maven
+#export PATH=$PATH:/Users/xuanxuan/DevelopSoft/apache-maven-3.3.3/bin
+
+#gradle
+export PATH=$PATH:/Users/xuanxuan/DevelopSoft/gradle-2.6/bin
+
+# HISTORY
+export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
+export HISTSIZE=2000
+export HISTFILESIZE=5000
+
+#jmeter
+export PATH=$PATH:/Users/xuanxuan/DevelopSoft/apache-jmeter-2.13/bin
+
+#autojump
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
+#rm eclipse .snap
+alias rmeclipse='rm /Users/xuanxuan/chnl_order_all/svn/GXUWEG_DEV/.metadata/.plugins/org.eclipse.core.resources/.snap'
