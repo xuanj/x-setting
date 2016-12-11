@@ -12,4 +12,8 @@
 ------- linux info start
 ## linux env
 ##
-------- linux info start
+------- linux info end
+------- phone info start
+##phone linux env.
+##
+------- phone info end
