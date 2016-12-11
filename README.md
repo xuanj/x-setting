@@ -9,3 +9,7 @@
 #My setting files.
 ## macos branch
 ------- branch info end
+------- linux info start
+## linux env
+##
+------- linux info start
