@@ -17,3 +17,5 @@
 ##phone linux env.
 ##
 ------- phone info end
+
+#ubuntu branch and redhat branch
