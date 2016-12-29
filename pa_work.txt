@@ -1,0 +1,2 @@
+Eclipse HTTP REST client
+http://nextinterfaces.com/http4e/install/
