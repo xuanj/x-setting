@@ -4,6 +4,7 @@
 alias tfkg='echo ============'
 alias l.='ls -d .*'
 alias la='ls -al'
+alias lg='ls -algG'
 alias a='ls -al'
 alias grep='grep --color=always'
 alias pb='ping -c 10 www.baidu.com'
