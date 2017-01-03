@@ -19,35 +19,8 @@ export ipRegExp="(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[0
 # PATH
 # user name
 user=`whoami`
-#zookeeper
-export ZOOKEEPER_HOME=/usr/local/zookeeper-3.4.5
-export PATH=$PATH:$ZOOKEEPER_HOME/bin
-
-# ssh
-export PATH=$PATH:/Users/$user/MyScripts
-
-#mysql
-export PATH=$PATH:/usr/local/mysql/bin
-
-#android
-#export PATH=$PATH:/Users/$user/DevelopSoft/AndroidIDE/adt-bundle-mac-x86_64-20140702/sdk/platform-tools
-
-#maven
-#export PATH=$PATH:/Users/$user/DevelopSoft/apache-maven-3.3.3/bin
-
-#gradle
-#export PATH=$PATH:/Users/$user/DevelopSoft/gradle-2.6/bin
 
 # HISTORY
 export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
 export HISTSIZE=2000
 export HISTFILESIZE=5000
-
-#jmeter
-export PATH=$PATH:/Users/$user/DevelopSoft/apache-jmeter-2.13/bin
-
-#autojump
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
-#rm eclipse .snap
-alias rmeclipse='rm /Users/$user/chnl_order_all/svn/GXUWEG_DEV/.metadata/.plugins/org.eclipse.core.resources/.snap'
