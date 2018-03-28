@@ -1,0 +1,29 @@
+# Rime schema
+# encoding: utf-8
+#
+# java程序员输入法
+#
+
+schema:
+  schema_id: programmer    # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
+  name: 码农        # 將在〔方案選單〕中顯示
+  version: "0.1"        # 這是文字類型而非整數或小數，如 "1.2.3"
+  author:
+    - xuanjian <xuanjian@live.com>
+  description: 
+    java程序员输入法
+
+engine:
+  processors:
+    - speller          # 把字母追加到編碼串
+    - express_editor   # 空格確認當前輸入、其他字符直接上屏
+  segmentors:
+    - abc_segmentor       # 標記輸入碼的類型
+    - fallback_segmentor
+  translators:
+    - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
+    - table_translator    # 碼表式轉換
+
+translator:
+  dictionary: java      # 設定 table_translator 使用的詞典名
+

@@ -1,0 +1,7 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	1
+#@/user_id	fec1feb1-d1b4-4755-bae8-a2e52b553c81
+wu bi 	五筆	c=1 d=1 t=1

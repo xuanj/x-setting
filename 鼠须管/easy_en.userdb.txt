@@ -1,0 +1,9 @@
+# Rime user dictionary
+#@/db_name	easy_en.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	4
+#@/user_id	fec1feb1-d1b4-4755-bae8-a2e52b553c81
+engine 	engine	c=1 d=0.995012 t=4
+processor 	processor	c=1 d=1 t=4
+programmer 	programmer	c=2 d=1.97516 t=4

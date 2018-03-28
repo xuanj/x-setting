@@ -1,0 +1,16 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 問候語小詞典
+#
+
+---
+name: java
+version: "1"
+sort: original
+...
+
+大家好	hello
+再見	bye
+再會	bye
+大家👌  impt

@@ -1,0 +1,88 @@
+# Rime dictionary: wubi86
+# encoding: utf-8
+#
+---
+name: wubi86.extended
+version: "0.7"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+
+import_tables:
+  - wubi86
+  - wubi86.emoji
+...
+
+😂️	zzbq	900
+😅️	zzbq	900
+☺️	zzbq	900
+😱️	zzbq	900
+😭️	zzbq	900
+😇️	zzbq	900
+🙃️	zzbq	900
+🤔️	zzbq	900
+💊️	zzbq	880
+💯️	zzbq	800
+👍️	zzbq	850
+🙈️	zzbq	900
+💩️	zzbq	800
+😈️	zzbq	700
+禤      pyln    900
+禤剑    pywg    900
+
+# 常见符号
+
+⌘	cmd
+⏎	return
+⏏	eject
+⇪	cap
+⇧	shift
+⌥	opt
+⌃	ctrl
+⌫	del
+°	degree
+℃	degreec
+℉	degreef
+✓	right	10000
+✓	dui gou	10001
+✗	wrong	10000
+✗	shan chu	10000
+✗	cha	10000
+✗	cha zi	10000
+°	du	10000
+℉	hua shi du
+℃	she shi du
+
+#
+♂	nan	10000
+♀	nv	10000
+↑	shang	10000
+↓	xia	10000
+♥	xin	10000
+★	xing	10000
+✩	xing	10000
+♪	yin fu	10000
+♫	yin fu	10000
+→	you	10000
+↗	you shang	10000
+↘	you xia	10000
+←	zuo	10000
+↖	zuo shang	10000
+↙	zuo xia	10000
+√	gou	10000
+×	cha	10000
+囗	kuang	10000
+⑨	jiu	10000
