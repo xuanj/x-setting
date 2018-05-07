@@ -4,29 +4,19 @@
 alias tfkg='echo ============'
 alias l.='ls -d .*'
 alias la='ls -al'
-alias lg='ls -algG'
+alias lg='ls -algGh'
 alias a='ls -al'
 alias grep='grep --color=always'
 alias pb='ping -c 10 www.baidu.com'
 alias pssort='ps -eo rss,pmem,pcpu,vsize,args|sort -k 1 -r -n|less'
 alias v='nvim '
 alias vi='vim'
-#mysql links
-export ipRegExp="(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
 
 # PATH
 # user name
 user=`whoami`
-#zookeeper
-export ZOOKEEPER_HOME=/usr/local/zookeeper-3.4.5
-export PATH=$PATH:$ZOOKEEPER_HOME/bin
-
-# ssh
-export PATH=$PATH:/Users/$user/MyScripts
 
 # HISTORY
 export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
 export HISTSIZE=2000
 export HISTFILESIZE=5000
-
-

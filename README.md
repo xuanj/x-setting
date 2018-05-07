@@ -7,6 +7,7 @@
 
 ------- branch info start
 #My setting files.
+<<<<<<< HEAD
 ## macos branch
 ------- branch info end
 ------- linux info start
@@ -19,3 +20,8 @@
 ------- phone info end
 
 #ubuntu branch and redhat branch
+=======
+##phone linux env.
+##
+## merge 4 picture.
+>>>>>>> 0602ec3ee77d5eafc199d6db7f69b6784992deca
